@@ -8,13 +8,17 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
-        // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
+      // Here you can enable experimental features on an ember canary build
+      // e.g. 'with-controller': true
       }
+    },
+
+    firebase: {
+      apiKey: "AIzaSyC5A0g669DzYrOOsXR-1Ml8-w8vDuQdkiI",
+      authDomain: "fir-rentals.firebaseapp.com",
+      databaseURL: "https://fir-rentals.firebaseio.com",
+      storageBucket: "fir-rentals.appspot.com",
+      messagingSenderId: "909034907177"
     },
 
     APP: {
