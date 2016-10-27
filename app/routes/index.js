@@ -6,6 +6,12 @@ export default Ember.Route.extend({
       rentals: this.store.findAll('rental'),
       reviews: this.store.findAll('review')
     });
+
+// for only one model:
+// model() {
+//   return this.store.findAll('rental');
+// },
+
   },
    actions: {
     saveRental3(params) {
