@@ -19,10 +19,10 @@ export default Ember.Route.extend({
       newRental.save();
       this.transitionTo('index');
     },
-    saveReview3(params) {
-      var newReview = this.store.createRecord('review', params);
-      newReview.save();
-      this.transitionTo('index');
-    }
+    // saveReview3(params) {
+    //   var newReview = this.store.createRecord('review', params);
+    //   newReview.save();
+    //   this.transitionTo('index');
+    // }
   }
 });
